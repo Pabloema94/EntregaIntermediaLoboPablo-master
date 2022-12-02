@@ -1,0 +1,28 @@
+{% extends "padre.html" %}
+
+{% load static %}
+
+{% block mensaje_dinamico %}
+<h2> Bienvenido a la busqueda de discos</h2>
+
+<h3>{{ mensaje_busqueda_disco }}</h3>
+
+
+
+<form action="{% url 'resultado_busqueda_disco'%}" method="GET">
+    <div>
+        <p>Marca</p>
+        <input type="text" name="marca" id="Marca_disco">
+    </div>
+        <input type="submit" value="Buscar">
+    </div>      
+</form>
+{% endblock %}
+
+
+
+
+
+
+
+

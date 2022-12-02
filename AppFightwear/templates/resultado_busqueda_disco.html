@@ -1,0 +1,27 @@
+{% extends "padre.html" %}
+
+{% load static %}
+
+{% block mensaje_dinamico %}
+<h1>Discos encontrados:</h1> 
+
+
+{% if disco_seleccionados %}
+<br>
+    {% for disco in disco_seleccionados %}
+        <li>{{ disco.marca }}</li>
+        <li>{{ disco.modelo }}</li>
+        <li>{{ disco.tipo }}</li>
+        <li>{{ disco.precio }}</li>
+        <br>
+    {% endfor %}
+</br>
+
+{% else %}
+
+<h2 style="color: white"> No encontramos discos que cumplan el criterio de búsqueda!</h2>
+
+{% endif %}
+
+
+{% endblock %}
