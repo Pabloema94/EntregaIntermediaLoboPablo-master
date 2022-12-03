@@ -1,5 +1,5 @@
 from django.urls import path
-from AppFightwear.views import *
+from AppTecnoWolf.views import *
 
 urlpatterns = [
     

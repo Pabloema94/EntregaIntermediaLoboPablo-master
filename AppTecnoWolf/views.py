@@ -1,9 +1,9 @@
 from django.shortcuts import render
-from AppFightwear.forms import *
-from AppFightwear.models import *
+from AppTecnoWolf.forms import *
+from AppTecnoWolf.models import *
 
 def inicio(request):
-    return render(request, "inicio.html",{"mensaje_inicio":"Fight shop BJJ"})
+    return render(request, "inicio.html",{"mensaje_inicio":"Técnologia Shop"})
 
 
 def impresora3D(request):

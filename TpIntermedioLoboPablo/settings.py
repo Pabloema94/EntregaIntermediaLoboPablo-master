@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'AppFightwear',
+    'AppTecnoWolf',
 ]
 
 MIDDLEWARE = [
@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'TpIntermedioRosenman.urls'
+ROOT_URLCONF = 'TpIntermedioLoboPablo.urls'
 
 TEMPLATES = [
     {

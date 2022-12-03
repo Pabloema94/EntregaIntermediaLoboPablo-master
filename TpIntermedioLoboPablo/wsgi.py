@@ -1,5 +1,5 @@
 """
-WSGI config for TpIntermedioRosenman project.
+WSGI config for TpIntermedioLoboPablo project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
