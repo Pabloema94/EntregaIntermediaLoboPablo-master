@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class AppfightwearConfig(AppConfig):
+class AppTecnoWolfConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
     name = 'AppTecnoWolf'
