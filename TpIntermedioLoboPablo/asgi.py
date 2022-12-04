@@ -1,5 +1,5 @@
 """
-ASGI config for TpIntermedioRosenman project.
+ASGI config for TpIntermedioLoboPablo project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
